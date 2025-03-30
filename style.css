@@ -1,0 +1,168 @@
+/* ✅ Navbar container */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+/* ✅ Logo */
+#navbar img {
+  width: 120px;
+  height: auto;
+}
+
+/* ✅ Search qismi */
+#ser form {
+  display: flex;
+  align-items: center;
+}
+
+#btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 25px 0 0 25px;
+  outline: none;
+}
+
+#ser button {
+  padding: 10px 15px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+}
+
+#ser button i {
+  font-size: 18px;
+}
+
+/* ✅ Navbar icon tugmalari */
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+nav button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #f0f0f0;
+}
+
+nav button i {
+  font-size: 18px;
+  color: black;
+}
+
+/* Navbar end */
+/* Main start */
+#primy-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  margin-left: 10px;
+  flex: 1;
+}
+
+/* Har bir video card */
+.card {
+  width: 250px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  background-color: gray; /* rasm yo'q bo‘lsa fon */
+}
+
+.card .text {
+  padding: 10px;
+}
+
+.card .text h4 {
+  margin: 5px 0;
+}
+
+.card .text p {
+  color: #555;
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+	margin-left: 250px; /* #box width'iga teng */
+  padding-top: 80px; /* navbar balandligidan keyin boshlansin */
+}
+
+/* Chap panel */
+#box {
+  width: 200px;
+  padding: 20px;
+  background-color: white;
+	position: fixed;
+  top: 70px; /* navbar pastidan boshlansin, navbar balandligiga qarab sozla */
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: white;
+  padding: 20px;
+  overflow-y: auto;
+}
+#box .rang{
+  background-color: #f1f1f1;
+  border-radius: 5px; /* 👈 bu yumaloqlik beradi */
+  font-size: 20px;
+  padding: 5px; /* ichidagilar devorga yopishib qolmasin */
+}
+#box h3{
+	font-size: 20px;
+}
+/* O‘ng kontent */
+#two-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#group {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#gruop button{
+	font-size: 16px;
+	position: relative;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 10px;
+	transition: 0.2s;
+	padding-right: 3.5em;
+	cursor: pointer;
+}
+#gruop .black{
+	background-color: #000000;
+}
+/* Main end */
